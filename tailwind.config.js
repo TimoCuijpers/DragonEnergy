@@ -11,6 +11,22 @@ export default {
         './resources/views/**/*.blade.php',
     ],
 
+    daisyui: {
+        themes: [
+            {
+                mytheme: {
+                    "primary": "#B8CD00",
+                    "secondary": "#44523F",
+                    "background": "#000000",
+                    "info": "#4c6c54",
+                    "primary-content": "#FFFFFF",
+                    "accent": "#52AA34",
+                    "accent-focus": "#275218",
+                },
+            }
+        ]
+    },
+
     theme: {
         extend: {
             fontFamily: {
