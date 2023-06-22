@@ -39,6 +39,7 @@ export default {
                 'note': '20px',
                 'mini': '16px',
                 'micro': '12px',
+                //
             }
         },
     },
