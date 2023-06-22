@@ -30,8 +30,16 @@ export default {
     theme: {
         extend: {
             fontFamily: {
+                comic_sans_ms: ['Comic Sans MS'],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            fontSize: {
+                'title': '48px',
+                'body': '24px',
+                'note': '20px',
+                'mini': '16px',
+                'micro': '12px',
+            }
         },
     },
 
