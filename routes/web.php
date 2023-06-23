@@ -17,7 +17,7 @@ use App\Http\Controllers\WebshopController;
 |
 */
 
-Route::get('/', [ProductController::class, 'index'])->name('home');
+Route::get('/', [ProductController::class, 'index'])->name('products.index');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 
