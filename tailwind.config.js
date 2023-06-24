@@ -34,11 +34,11 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             fontSize: {
-                'title': '48px',
-                'body': '24px',
-                'note': '20px',
-                'mini': '16px',
-                'micro': '12px',
+                'title': '42px',
+                'body': '26px',
+                'note': '22px',
+                'mini': '18px',
+                'micro': '14px',
                 //
             }
         },
