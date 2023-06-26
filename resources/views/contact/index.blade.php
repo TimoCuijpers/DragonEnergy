@@ -21,7 +21,7 @@
             <img src="{{ asset('img/recapatcha.png') }}" class="h-16">
             </div>
             <div>
-                <button class=" px-9 sm:px-24 py-5 bg-black border border-white">Blikken</button>
+                <button class=" px-9 sm:px-24 py-5 bg-black border border-white">versturen</button>
             </div>
         </div>
         <div class=" flex-colum mt-14">
@@ -56,15 +56,6 @@
                     <p>Gesloten</p>
                 </div>
             </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
         </div>
     </div>
 </x-app-layout>
