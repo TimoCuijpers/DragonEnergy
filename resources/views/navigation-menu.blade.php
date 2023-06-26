@@ -17,7 +17,7 @@
                 <x-nav-title :active="request()->routeIs('webshop.*')">
                     <h1>{{ __('Webshop') }}</h1>
                 </x-nav-title>
-                <x-nav-title :active="request()->routeIs('shopping-cart.index')">
+                <x-nav-title :active="request()->routeIs('winkelwagen.index')">
                     <h1>{{ __('Winkelwagen') }}</h1>
                 </x-nav-title>
                 <x-nav-title :active="request()->routeIs('contact.index')">
