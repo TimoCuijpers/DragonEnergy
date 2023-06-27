@@ -1,5 +1,5 @@
-<div>
-    <div class="bg-info py-[2vw] pl-[8vw]">
+<div class="font-['arial']">
+    <div class="bg-info py-[6vw] pl-[8vw]">
         <a href="mailto:dragon.energy@hotmail.com">
             <h1 class="text-primary text-note font-bold">dragon.energy@hotmail.com</h1>
         </a>
