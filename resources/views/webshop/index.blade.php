@@ -16,7 +16,7 @@
         @for($i = 0; $i < 10; $i++)
             <a href="{{ route('webshop.show', $i) }}">
                 <div class="flex flex-col">
-                    <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-[200px]">
+                    <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-[200px]">
                     <h1 class="text-note">500ml Original</h1>
                     <h1 class="text-body bold">$1,50</h1>
                 </div>

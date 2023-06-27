@@ -4,7 +4,7 @@
         <x-line/>
         <div class="flex justify-center gap-y-10 gap-x-20 flex-col sm:flex-row">
             <div class="flex flex-col">
-                <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[18rem] w-[16rem] object-contain mx-auto">
+                <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[18rem] w-[16rem] object-contain mx-auto">
                 <h1 class="text-note">500ml Original</h1>
                 <h1 class="text-body bold">&euro;1,50</h1>
                 <button class="mt-4 btn btn-accent border-primary border-4 text-primary-content mx-8" x-on:click="activeButton === 'knop1' ? activeButton = '' : activeButton = 'knop1'">
@@ -12,7 +12,7 @@
                 </button>
             </div>
             <div class="flex flex-col">
-                <img src="{{ asset('img/reep.png') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[18rem] w-[16rem] object-contain mx-auto">
+                <img src="{{ asset('img/reep.jpg') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[18rem] w-[16rem] object-contain mx-auto">
                 <h1 class="text-note">Original Bar</h1>
                 <h1 class="text-body bold">&euro;0,60</h1>
                 <button class="mt-4 btn btn-accent border-primary border-4 text-primary-content mx-8" x-on:click="activeButton === 'knop2' ? activeButton = '' : activeButton = 'knop2'">
@@ -58,12 +58,12 @@
         <x-line/>
         <div class="flex justify-center gap-y-10 gap-x-20 flex-col sm:flex-row">
             <div class="flex flex-col justify-center mx-6">
-                <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
+                <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
                 <h1 class="text-note">500ml Original</h1>
                 <h1 class="text-body bold">&euro;1,50</h1>
             </div>
             <div class="flex flex-col justify-center mx-6">
-                <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
+                <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
                 <h1 class="text-note">500ml Original</h1>
                 <h1 class="text-body bold">&euro;1,50</h1>
             </div>
@@ -73,12 +73,12 @@
         <x-line/>
         <div class="flex justify-center gap-y-10 gap-x-20 flex-col sm:flex-row">
             <div class="flex flex-col justify-center mx-6">
-                <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
+                <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
                 <h1 class="text-note">500ml Original</h1>
                 <h1 class="text-body bold">&euro;1,50</h1>
             </div>
             <div class="flex flex-col justify-center mx-6">
-                <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
+                <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-xl py-2 cursor-pointer h-[14rem] w-[12rem] object-contain  mx-auto">
                 <h1 class="text-note">500ml Original</h1>
                 <h1 class="text-body bold">&euro;1,50</h1>
             </div>

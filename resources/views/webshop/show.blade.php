@@ -1,10 +1,10 @@
 <x-app-layout>
     <div class="py-12">
         <h1 class="text-body text-primary font-bold mb-8">Product assortiment</h1>
-        <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-full h-[400px] object-contain">
+        <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-full h-[400px] object-contain">
         <div class="flex mt-2 gap-2">
-            <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-[100px]">
-            <img src="{{ asset('img/blik.png') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-[100px]">
+            <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-[100px]">
+            <img src="{{ asset('img/blik.jpg') }}" class="bg-secondary rounded-sm py-2 cursor-pointer w-[100px]">
         </div>
         <div class="flex flex-col mt-2">
             <h1 class="text-body font-bold text-primary">500ml Original</h1>
