@@ -11,13 +11,38 @@ export default {
         './resources/views/**/*.blade.php',
     ],
 
+    daisyui: {
+        themes: [
+            {
+                mytheme: {
+                    "primary": "#B8CD00",
+                    "secondary": "#44523F",
+                    "background": "#000000",
+                    "info": "#4c6c54",
+                    "primary-content": "#FFFFFF",
+                    "accent": "#52AA34",
+                    "accent-focus": "#275218",
+                },
+            }
+        ]
+    },
+
     theme: {
         extend: {
             fontFamily: {
+                comic_sans_ms: ['Comic Sans MS'],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            fontSize: {
+                'title': '42px',
+                'body': '26px',
+                'note': '22px',
+                'mini': '18px',
+                'micro': '14px',
+                //
+            }
         },
     },
 
-    plugins: [forms, typography],
+    plugins: [forms, typography, require("daisyui")],
 };

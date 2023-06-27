@@ -23,18 +23,11 @@
         <div class="min-h-screen bg-gray-100">
             @livewire('navigation-menu')
 
-            <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endif
-
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
+            <main class="bg-black grid grid-cols-9 sm:grid-cols-5 lg:grid-cols-7">
+                <div class="col-start-2 col-span-7 sm:col-span-3 sm:col-start-2 lg:col-span-3 lg:col-start-3 font-['arial']">
+                    {{ $slot }}
+                </div>
             </main>
         </div>
 
@@ -42,4 +35,7 @@
 
         @livewireScripts
     </body>
+    <footer>
+        <x-footer />
+    </footer>
 </html>

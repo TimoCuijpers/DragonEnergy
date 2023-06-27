@@ -35,7 +35,7 @@ class WebshopController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return view('webshop.show', ['id' => $id]);
     }
 
     /**
