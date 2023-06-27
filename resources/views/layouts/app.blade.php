@@ -25,7 +25,7 @@
 
             <!-- Page Content -->
             <main class="bg-black grid grid-cols-9 sm:grid-cols-5 lg:grid-cols-7">
-                <div class="col-start-2 col-span-7 sm:col-span-3 sm:col-start-2 lg:col-span-3 lg:col-start-3">
+                <div class="col-start-2 col-span-7 sm:col-span-3 sm:col-start-2 lg:col-span-3 lg:col-start-3 font-['arial']">
                     {{ $slot }}
                 </div>
             </main>
