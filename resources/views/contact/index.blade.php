@@ -3,7 +3,7 @@
         <h1 class="text-left text-body font-bold text-primary">Mail ons</h1>
         <div class="flex-colum mt-5">
 
-            <p class="text-note font-bold">naam</p>
+            <p class="text-note font-bold">Naam</p>
             <input class="h-9 bg-secondary border-white border-solid border w-full" />
 
             <p class="text-note font-bold mt-1">Uw e-mailadres</p>
@@ -18,7 +18,7 @@
 
         <div class="flex mt-7 justify-between">
             <div>
-            <img src="{{ asset('img/recapatcha.png') }}" class="h-16">
+            <img src="{{ asset('img/recapatcha.jpg') }}" class="h-16">
             </div>
             <div>
                 <button class=" px-9 sm:px-24 py-5 bg-black border border-white">versturen</button>
@@ -38,11 +38,11 @@
                 <div class="flex text-note font-bold justify-between mt-5">
                     <p>Woensdag:</p>
                     <p>09:00 - 17:00</p>
-                </div> 
+                </div>
                 <div class="flex text-note font-bold justify-between mt-5">
                     <p>Donderdag:</p>
                     <p>09:00 - 17:00</p>
-                </div> 
+                </div>
                 <div class="flex text-note font-bold justify-between mt-5">
                     <p>Vrijdag:</p>
                     <p>09:00 - 17:00</p>

@@ -5,7 +5,7 @@
 
         <!-- item1 -->
         <div class="w-full h-28 mt-5 bg-secondary border-white border-solid border flex ">
-            <img src="{{ asset('img/blik.png') }}" class="h-14 sm:h-24 mb-auto mt-auto pr-2 sm:pl-1 sm:pr-5 md:pl-6 md:pr-10">
+            <img src="{{ asset('img/blik.jpg') }}" class="h-14 sm:h-24 mb-auto mt-auto pr-2 sm:pl-1 sm:pr-5 md:pl-6 md:pr-10">
             <div class="flex-colum h-24 mt-auto mb-0">
                 <h1 class="text-mini sm:text-note font-bold h-7">500ml Original</h1>
                 <p class="text-micro sm:text-mini h-6">€1,50</p>
@@ -29,7 +29,7 @@
 
         <!-- item2 -->
         <div class="w-full h-28 mt-5 bg-secondary border-white border-solid border flex ">
-            <img src="{{ asset('img/blik.png') }}" class=" h-14 sm:h-24 mb-auto mt-auto pr-2 sm:pl-1 sm:pr-5 md:pl-6 md:pr-10">
+            <img src="{{ asset('img/blik.jpg') }}" class=" h-14 sm:h-24 mb-auto mt-auto pr-2 sm:pl-1 sm:pr-5 md:pl-6 md:pr-10">
             <div class="flex-colum h-24 mt-auto mb-0">
                 <h1 class="text-mini sm:text-note font-bold h-7">250ml Original</h1>
                 <p class="text-micro sm:text-mini h-6">€0,80</p>
@@ -49,18 +49,18 @@
                 <p class="mt-2 text-mini sm:text-note font-bold">€5,60</p>
             </div>
         </div>
-   
+
     <div class=" text-right mt-2 text-mini sm:text-body">
     <p>ex. btw €9,12</p>
     <p>in. btw €11,60</p>
     </div>
-    
+
     <div class=" text-right mt-64 ">
     <p class="text-mini ">Afrekenen?</p>
     <p class="text-note font-bold">€11,60</p>
     <button class=" btn btn-accent border-primary border-4 text-primary-content h-6 px-14">Ja</button>
     </div>
-    
+
     </div>
 
 
